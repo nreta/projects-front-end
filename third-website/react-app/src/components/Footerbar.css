@@ -1,0 +1,92 @@
+.footer{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background: linear-gradient(to top, rgb(102, 67, 21), rgba(0, 0, 0, 0));
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for hover effect */
+    color: black;
+    cursor: pointer;
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    
+    flex-direction: column;
+}
+
+.footer:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* New background color on hover */
+    color: black; 
+}
+.footer-header{
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    color: rgb(223, 161, 81);
+    
+}
+.footer-header:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color:red; 
+    border-radius: 60px;
+    padding: 10px;
+}
+.footer-menu{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color:red; 
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.footer-menu a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.footer-logos{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.footer-logo:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color:red; 
+    border-radius: 60px;
+    padding: 10px;
+}
+
+.footor-copyright{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0,1), rgba(0, 0, 0, 0.2));
+    padding: 10px 30px;
+    color: wheat;
+
+}
+

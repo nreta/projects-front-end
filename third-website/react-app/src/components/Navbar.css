@@ -1,0 +1,60 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 120px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition for hover effect */
+    color: wheat;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* New background color on hover */
+    color: black; 
+}
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+    color:  rgb(223, 161, 81);
+    
+}
+.nav-logo:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: rgb(236, 87, 112); 
+    border-radius: 60px;
+    padding: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    font-size: 18px;
+}
+.nav-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: rgb(236, 87, 112); 
+    border-radius: 60px;
+    padding: 10px;
+}
+.nav-menu a{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.nav-ordor{
+    color: black;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: wheat;
+}

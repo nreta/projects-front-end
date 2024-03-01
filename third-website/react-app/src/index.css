@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  *{
+    margin: 0;
+  }
+  .nav {
+    flex-direction: column;
+    margin: 0px;
+    padding: 40px 120px;
+    justify-content: center;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+  }
+  .nav-logo{
+    padding-right: 150px;
+  }
+  .nav-menu{
+    padding: 0;
+    margin-right: 150px;
+  }
+  .nav-ordor{
+    border-radius: 20px;
+    text-align: center;
+  }
+  .hero{
+    margin: 250px 50px;
+    margin-top: 250px;
+}
+  .hero-text{
+    font-size: 30px;
+  }
+  .hero-dot-play{
+    margin: 250px 0px;
+    margin-bottom: 0px; 
+    gap: 80px;
+  }
+  .hero-play p {
+    visibility: hidden;
+  }
+  
+  .hero-explore p {
+    font-size: 12px;
+  }
+  .menu-items{
+    padding: 30px;
+    width: 300px;
+    margin: 0;
+    margin: 350px 50px;  
+
+  }
+  .items{
+    flex-direction: column;
+  }
+  .menu-item-titel{
+    padding: 10px 30px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 768px ) {
+  *{
+    margin: 0;
+  }
+  .nav {
+    flex-direction: column;
+    margin: 0px;
+    font-size: 8px;
+    
+  }
+  .nav-menu{
+    font-size: 16px;
+    gap: 30px
+  }
+  .nav-ordor{
+    text-align: center;
+  }
+  .hero{
+    margin: 250px 50px;
+    margin-top: 250px;
+}
+  .hero-text{
+    font-size: 30px;
+  }
+  .hero-dot-play{
+    margin: 250px 0px;
+    margin-bottom: 0px; 
+    gap: 80px;
+  }
+  .hero-explore p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 992px ) {
+  *{
+    margin: 0;
+  }
+  .nav {
+  
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 8px;
+    gap: 80px;
+    
+    
+  }
+  .nav-menu{
+    font-size: 16px;
+    gap: 30px
+  }
+  
+  .nav-ordor{
+    text-align: center;
+  }
+  .nav-ordor:hover{
+    border-radius: 20px;
+    text-align: center;
+  }
+  .hero{
+    margin: 250px 50px;
+    margin-top: 250px;
+}
+  .hero-text{
+    font-size: 30px;
+  }
+  .hero-dot-play{
+    margin: 250px 0px;
+    margin-bottom: 0px; 
+    gap: 80px;
+  }
+  .hero-explore p {
+    font-size: 12px;
+  }
+}
+

@@ -1,0 +1,111 @@
+.hero{
+    margin: 150px 120px;   
+}
+
+.hero-text{
+    color:  white;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 130px;
+}
+.hero-explore{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-top: 0.5px solid rgba(255,255,255,0.35);
+    border-left: 0.5px solid rgba(255,255,255,0.35);
+    margin-top: 100px;
+}
+
+.hero-explore:hover{
+    background: rgba(255,255,255,0);
+    border: none;
+    color:rgba(255,255,255,0) ;
+    transition: 2s;
+    
+
+}
+.hero-explore a{
+    margin: 0;
+    height: 0;
+    padding: 0;
+    width: 0;
+    list-style: none;
+    color: rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-explore p{
+    padding-left: 50px;
+   
+}
+.hero span{
+    position: absolute;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 67, 67);
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hero-explore:hover span{
+    left: calc(100% - 55px);
+    background: rgb(228, 12, 12);
+    color: rgba(255,255,255,1) ;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.hero-dot-play{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 50px 0px;
+    
+}
+.hero-dots{
+    
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.orange{
+    background-color: rgb(235, 129, 91);
+}
+
+.hero-play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+.hero-play p{
+    color: white;
+    font-size: 16px;
+}
+.hero-play img{
+    cursor: pointer;
+}
